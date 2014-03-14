@@ -15,10 +15,7 @@ def secondLetterFromWord(word):
 	"""
 	A function that gets the second letter of a word from a given string.
 	"""
-	result = "" 
-	for w in word.split():
-		result += w[1:2]
-	return result
+	return "".join([w[1:2] for w in word.split()])
 
 def reverse(word):
 	"""
