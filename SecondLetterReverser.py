@@ -38,6 +38,5 @@ def main():
 	result = reverse(secondLetterFromWord(testString))
 	print "Result:   ", result
 
-
 if __name__ == '__main__':
 	main()
