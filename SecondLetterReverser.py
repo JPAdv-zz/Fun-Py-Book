@@ -28,6 +28,12 @@ def reverse(word):
 		size -= 1
 	return result
 
+def easy_reverse(word):
+	"""
+	A function that reverses a string by string manipulation.
+	"""
+	return word[::-1]
+
 def main():
 	"""
 	The main program.
@@ -35,7 +41,7 @@ def main():
 	expected = "uyfooeroio"
 	testString = "I would like to order a very good book of Python Fundamentals"
 	print "Expected: ", expected
-	result = reverse(secondLetterFromWord(testString))
+	result = easy_reverse(secondLetterFromWord(testString))
 	print "Result:   ", result
 
 if __name__ == '__main__':
